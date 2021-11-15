@@ -99,7 +99,22 @@
 ![15](https://user-images.githubusercontent.com/92698873/141726539-96eea3e2-ff76-41b2-9ccd-ecec88881a11.png)
 
 
-## Summary
+## Election Audit Summary
+This script is very efficient and systematic in finding the election results for Colorado and providing the Election commission board with the election audit they needed. This script with little modification can be a great benefit for the Board of Election commission. Some use-cases are below
+
+-  Voting system 
+To analyze how voters cast their vote, through
+    - Mail-In ballots
+    - Punch Cards
+    - Direct Recording Electronic (DRE) Counting.
+    
+This requires the following modifications: 
+ Adding a variable voting_system to get the input voting system list and counting how many people have voted through each way and declaring the most preferred way used by people to cast their vote.
+ 
+- State results for Senate and Congressman
+    - This requires the following modifications : Declaring and adding three new variables and components for State, Senate, and House of representatives to show the results of won and lost for the state.
+    - This will help the election commission to know who controls both the houses for the state.
+
 
    
 
